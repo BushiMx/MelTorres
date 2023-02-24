@@ -10,7 +10,7 @@ header{
 }
 
 .menu{
-    display: flex;
+    display: none;
     width: 100%;
     justify-content: space-evenly;
     color: #fff6e9;
