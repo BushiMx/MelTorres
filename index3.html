@@ -4,58 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mel Torres - Wedding Planner</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Melina Torres - Wedding Planner</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="logo/icon.ico" type="image/x-icon" sizes="128x128">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/index.css">
-
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <section class="menu">
-        <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Mel Torres - Wedding Planner</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#nosotros">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#servicios">Servicios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#contacto">Contacto</a> 
-                        </li>
+    <section>
+        <div class="encabezado">
+            <header>
+                <img class="logo" src="logo/logo_claro.webp" alt="Logotipo de Melina Torres - Wedding planner">
+                <nav class="menu">
+                    <ul class="menu-list">
+                        <li class="menu-item">Nosotros</li>
+                        <li class="menu-item">Servicio</li>
+                        <li class="menu-item">Contacto</li>
                     </ul>
-                </div>
-            </div>
-        </nav>
+                </nav>
+            </header>
+        </div>
     </section>
-    
-    <section class="banner">
-        <div class="position-relative overflow-hidden bg-light">
-            <img class="img-fluid" src="logo/logo_claro.webp" alt="Logo Mel Torres">
-          </div>
-    </section>
-
-    <section class="nosotros" id="nosotros">
+    <section class="nosotros">
         <h1 class="titulo">Tú día más feliz</h1>
         <h1 class="titulo">Con la boda de tus sueños.</h1>
         <p class="descripcion">Organizar tu boda o pedir la mano de tu pareja debe ser un día de ilusión y emoción.</p>
         <p class="descripcion">Con nuestra experienia te ayudamos a volverlo realidad y eliminar toda la presión de ese día.</p>
         <p class="descripcion">Nuestra misión es verte feliz, radiante y disfrutando de ese memorable día.</p>
     </section>
-
-    <section class="fotos" id="fotos"> 
+    <section class="fotos">
         <div class="galeria carousel slide" id="carouselExampleIndicators">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Foto 1"></button>
@@ -104,67 +86,39 @@
             </button>
         </div>
     </section>
+    <section class="servicios">
+        <h1 class="titulo">Nuestros servicios</h1>
+        <p class="descripcion">Estamos para apoyarte en todo lo que necesites</p>
+        <p class="descripcion">Nuestros servicios TOP más solicitados son: Coordinación y Logística para el día de la boda y Pedidas de mano.</p>
+        <div class="descrip_servicios row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="boda feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
 
-    <section class="servicios" id="servicios">
-        <h2>Servicios Principales</h2>
-        <p class="descripcion">Estos son 2 de nuestros servicios más solicitados</p>
-        <p class="descripcion">Si tienes alguna otra idea o necesidad la hacemos realidad.</p>
-        <div class="row row-cols-1 row-cols-md-3">
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-header">Paquete Marry Me</div>
-                    <img src="pictures/pedida_mano_letrero.webp" class="card-img-top" alt="Paquete Marry Me">
-                    <div class="card-body">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item bi bi-check2-all"> Terraza en CDMX o Cuernavaca.</li>
-                            <li class="list-group-item bi bi-check2-all"> Cena romántica.</li>
-                            <li class="list-group-item bi bi-check2-all"> Camino luminoso.</li>
-                            <li class="list-group-item bi bi-check2-all"> Camino de pétalos de rosas.</li>
-                            <li class="list-group-item bi bi-check2-all"> Música romántica (Sax o violin en vivo).</li>
-                            <li class="list-group-item bi bi-check2-all"> Botella de vino para 2.</li>
-                            <li class="list-group-item bi bi-check2-all"> Letras luminosas.</li>
-                            <li class="list-group-item bi bi-check2-all"> Pirotecnica fría.</li>
-                            <li class="list-group-item bi bi-check2-all"> Staff profesional.</li>
-                            <li class="list-group-item bi bi-check2-all"> Planeación, coordinación, logística.</li>
-                        </ul>
-                  </div>
-                  <div class="card-footer">
-                    <small class="lead">Contáctanos para más información.</small>
-                  </div>
                 </div>
-              </div>
-
-            <div class="col">
-              <div class="card h-100">
-                <div class="card-header">Organización y Coordinación del día de la boda</div>
-                <img src="pictures/boda_baile_00.webp" class="card-img-top" alt="Organización y Coordinación del día de la boda">
-                <div class="card-body">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item bi bi-check2-all"> Confirmación de invitados.</li>
-                        <li class="list-group-item bi bi-check2-all"> Logística.</li>
-                        <li class="list-group-item bi bi-check2-all"> Organización.</li>
-                        <li class="list-group-item bi bi-check2-all"> Time Line.</li>
-                        <li class="list-group-item bi bi-check2-all"> Recepción de invitados.</li>
-                        <li class="list-group-item bi bi-check2-all"> Acomodo.</li>
-                        <li class="list-group-item bi bi-check2-all"> Supervisión del evento.</li>
-                        <li class="list-group-item bi bi-check2-all"> Pago a proveedores.</li>
-                        <li class="list-group-item bi bi-check2-all"> Despedida.</li>
-                        <li class="list-group-item bi bi-check2-all"> Staff profesional.</li>
-                      </ul>
-                </div>
-                <div class="card-footer">
-                  <small class="lead">Presupuesto personalizado.</small>
-                </div>
-              </div>
+                <h2>Coordinación y Logística para tu Boda</h2>
+                <ul>
+                    <li class="list_item"><i class="bi bi-stars">Confirmación de invitados.</i></li>
+                    <li class="list_item">Logística.</li>
+                    <li class="list_item">Organización.</li>
+                    <li class="list_item">Time line.</li>
+                    <li class="list_item">Recepción de invitados.</li>
+                    <li class="list_item">Acomodo.</li>
+                    <li class="list_item">Supervisión del evento.</li>
+                    <li class="list_item">Pago a proveedores.</li>
+                    <li class="list_item">Despedida.</li>
+                    <li class="list_item">Presupuesto personalizado.</li>
+                    <li class="list_item">Staff profesional.</li>
+                </ul>
             </div>
-
-          </div>
+            <div class="mano">
+                <h2>Pedida de mano</h2>
+            </div>
+        </div>
     </section>
-
-    <section class="contacto" id="contacto">
+    <section class="contacto">
         <h2>Contacto</h2>
-        <p class="descripcion">Si tienes Dudas, preguntas o comentarios,</p>
-        <p class="descripcion">esperamos tu mensaje! Estamos para servirte.</p>
+        <p class="descripcion">Dudas, preguntas o comentarios,</p>
+        <p class="descripcion">esperamos tu mensaje!</p>
         <div class="metodo_contacto">
             <div class="contacto_container llamada">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
@@ -180,16 +134,36 @@
                 <p><a href="mailto:	soy@meltorresweddingplanner.com">Enviar Email</a></p>
             </div>
         </div>
-    </section>
+        <form>
+            <label for="nombre" class="form_label">Nombre y Apellido:</label>
+            <input type="text" id="nombre" class="input-padron" required autofocus>
 
+            <label for="correo" class="form_label">Correo Electronico:</label>
+            <input type="email" id="correo" class="input-padron" required placeholder="email@dominio.com">
+
+            <label for="telefono" class="form_label">Telefono:</label>
+            <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+
+            <label for="mensaje" class="form_label">Mensaje</label>
+            <textarea cols="68" rows="10" id="mensaje" class="input-padron" required></textarea>
+
+            <fieldset class="horario_contacto">
+                <legend>¿En que horario prefiere ser atendido?</legend>
+                <select name="horario" required title="horario">
+                    <option value="Mañana">Mañana</option>
+                    <option value="Tarde">Tarde</option>
+                    <option value="Noche">Noche</option>
+                </select>
+            </fieldset>
+            
+            <input type="submit" class="enviar">
+        </form>
+    </section>
     <footer>
-        <img class="logo img-fluid" src="logo/logo_obs.webp" alt="Logotipo de Mel Torres">
+        <img class="logo" src="logo/logo_obs.webp" alt="Logotipo de Melina Torres">
         <p class="copyright">&copy Copyright Mel Torres - Wedding Planner 2023</p>
-        <p class="copyright" style="font-size: 1rem;">Página elaborada por: BushiMx</p>
     </footer>
-    <a href="https://wa.me/5215530108735?text=Hola%20!%20Quiero%20informacion%20de%20tus%20servicios." class="whatsapp" target="_blank" rel="noopener"> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-        <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
-      </svg></a>
+    <a href="https://wa.me/5215530108735?text=Hola%20!%20Quiero%20informacion%20de%20tus%20servicios." class="whatsapp" target="_blank" rel="noopener"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
